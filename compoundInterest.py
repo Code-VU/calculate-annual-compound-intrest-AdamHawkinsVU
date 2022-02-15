@@ -9,7 +9,8 @@ def calculateCompoundInterest():
     client_one_rate = float(input("Rate:               "))
     amount = client_one_principal*(pow((1+client_one_rate/100), client_one_time))
     comp_int = amount - client_one_principal
-    print("Compound Interest: ",comp_int)
+    readable_int = round(comp_int,2)
+    print("Compound Interest: ",readable_int)
     x=x+1
     if x<=2:
         print("---")
@@ -24,4 +25,4 @@ def calculateCompoundInterest():
 ## ***IMPORTANT*** please recomment before you submit/sync your assignment.
 ## OR YOUR TEST WILL NOT RUN
 
-#calculateCompoundInterest()
+calculateCompoundInterest()
