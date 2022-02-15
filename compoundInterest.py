@@ -25,4 +25,4 @@ def calculateCompoundInterest():
 ## ***IMPORTANT*** please recomment before you submit/sync your assignment.
 ## OR YOUR TEST WILL NOT RUN
 
-calculateCompoundInterest()
+#calculateCompoundInterest()
