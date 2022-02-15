@@ -10,7 +10,7 @@ def calculateCompoundInterest():
     amount = client_one_principal*(pow((1+client_one_rate/100), client_one_time))
     comp_int = amount - client_one_principal
     readable_int = round(comp_int,2)
-    print("Compound Interest: ",readable_int)
+    print("Compound Interest:  ",readable_int)
     x=x+1
     if x<=2:
         print("---")
